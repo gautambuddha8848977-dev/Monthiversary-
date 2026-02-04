@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6 Monthiversary Gift ❤️</title>
+
+<!-- Elegant font -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(180deg, #f4e9ff, #efe3ff);
+  color: #4b2c5e;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.8;
+}
+
+button {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  background: #b57edc;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#giftSection {
+  display: none;
+  padding-top: 40px;
+}
+
+/* BIG ROSE BOUQUET */
+.bouquet {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  margin: 50px auto;
+}
+
+.rose {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(circle at 30% 30%, #ff9aa2, #c9184a);
+  border-radius: 50%;
+}
+
+.rose:nth-child(1) { top: 0; left: 85px; }
+.rose:nth-child(2) { top: 40px; left: 30px; }
+.rose:nth-child(3) { top: 40px; right: 30px; }
+.rose:nth-child(4) { top: 90px; left: 10px; }
+.rose:nth-child(5) { top: 90px; right: 10px; }
+.rose:nth-child(6) { top: 130px; left: 85px; }
+
+.stem {
+  width: 14px;
+  height: 140px;
+  background: #4f7c4f;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.message {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-top: 30px;
+  color: #5a2d82;
+}
+
+/* Music */
+.music {
+  margin-top: 40px;
+}
+
+iframe {
+  border-radius: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Happy 6 Monthiversary, My Love 🌹</h1>
+
+  <p>
+    Six months with you feels like a beautiful dream I never want to wake up from.
+    Every smile, every moment, every memory with you has made my life softer,
+    warmer, and full of love.
+  </p>
+
+  <p>
+    I made something small but full of my heart — just for you.
+    Would you like to open your 6-monthiversary gift?
+  </p>
+
+  <button id="yesBtn">Yesss ❤️</button>
+
+  <div id="giftSection">
+    <div class="bouquet">
+      <div class="rose"></div>
+      <div class="rose"></div>
+      <div class="rose"></div>
+      <div class="rose"></div>
+      <div class="rose"></div>
+      <div class="rose"></div>
+    </div>
+    <div class="stem"></div>
+
+    <div class="message">
+      I loveee youuu sooo muchhh 💜<br>
+      I will always lovee youuu,<br>
+      my wifeeee 🌹
+    </div>
+
+    <div class="music">
+      <p>🎶 A song that reminds me of you 🎶</p>
+      <iframe width="320" height="180"
+        src="https://www.youtube.com/embed/vGJTaP6anOU"
+        title="Can't Help Falling in Love"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+document.getElementById("yesBtn").addEventListener("click", function() {
+  document.getElementById("giftSection").style.display = "block";
+  this.style.display = "none";
+});
+</script>
+
+</body>
+</html>
